@@ -1,0 +1,462 @@
+body {
+    padding-top: 70px;
+    background-color: #F6F4F0;
+}
+a:hover {
+    color: #C62627;
+    text-decoration: none;
+}
+.header-height {
+    height: 70px;
+}
+.logo {
+    position: absolute;
+    width: 270px;
+    height: 59px;
+    background: url("../img/logo.png") no-repeat;
+    text-indent: -9999px;
+}
+
+.nav-user-photo {
+    border-radius: 100%;
+    border: 2px solid #FFF;
+    margin: -4px 8px 0 0;
+    max-height: 40px;
+}
+
+.light-blue {
+    min-width: 160px;
+    max-height: 50px;
+    margin-top: -7px;
+    color: #93cbf9!important;
+}
+
+.post-info {
+    font-size: 12px;
+    margin-top: 2px;
+}
+.post-info a:hover {
+    color: #C62627;
+    text-decoration: none;
+}
+
+.post-info .md-header {
+    display: none !important;
+}
+
+.user-info {
+    max-width: 100px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    text-align: left;
+    vertical-align: top;
+    line-height: 15px;
+    position: relative;
+    top: 0px;
+
+}
+.user-info .tag-list {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.side-list {
+    font-size: 12px;
+    min-width: 272px !important;
+}
+
+.side-list .list-title {
+    background: #f2f2f2;
+    width: 100%;
+    height: 34px;
+    padding: 0px 10px;
+    line-height: 34px;
+}
+
+.list-title h3 {
+    font-size: 14px;
+    line-height: 34px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.panel-primary .panel-heading a, .panel-primary .panel-heading a:hover{
+    color: #FFFFFF;
+}
+
+.side-list ul {
+    list-style: none;
+    padding: 0px 10px;
+    background: #fff;
+}
+
+.side-list ul li {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 14px;
+    border-bottom: 1px dotted #CCCCCC;
+    margin: 0px 0px;
+}
+
+.side-list ul li a {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    float: left;
+    width: 80%;
+    margin-right: 10px;
+}
+
+.side-list ul li span {
+    float: right;
+}
+
+.side-list a:hover {
+    color: #C62627;
+    text-decoration: none;
+}
+
+.side-list .content {
+    padding: 10px 10px;
+    max-lines: 6;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.side-list-control {
+    overflow: hidden;
+}
+
+.copyright {
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+}
+
+.fix-top-right {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.fix-top-right > ul >ul {
+    background-color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+    .fix-top-right>ul>li>a {
+        margin-top: 10px;
+    }
+    .fix-top-right>ul>li>ul {
+        margin-top: 100px;
+    }
+
+}
+
+@media (max-width: 1300px) {
+    .side-bar {
+        right: 0px !important;
+    }
+}
+
+.fix-top-right>ul>li>a {
+    padding: 5px 15px;
+}
+
+.fix-top-right>ul>li>ul {
+    background-color: #fff!important;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc ;
+    border: 1px solid rgba(0,0,0,.15) !important;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175)!important;
+}
+
+.social {
+    margin: 20px auto;
+}
+
+.social a:hover {
+    color: #da6426;
+    text-decoration: none;
+}
+
+.commentscontrol {
+    overflow: hidden;
+    position: relative;
+}
+
+.commentscontrol a{
+    margin-top: 8px;
+    margin-bottom: 1px;
+    width: 76% !important;
+}
+
+.commentscontrol .comments li {
+    padding: 0;
+    height: 45px !important;
+    text-indent: 0 !important;
+}
+
+.commentscontrol .comments {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.commentscontrol .comments .comment-photo {
+    float: left;
+    padding: 4px 0 0 0;
+}
+
+
+.commentscontrol .comment-author {
+    float: left;
+    color: #c8c8c8;
+    height: 22px;
+    overflow: hidden;
+    width: 50%;
+    line-height: 20px;
+}
+
+.commentscontrol .comment-info {
+    margin-top: 2px;
+}
+
+.commentscontrol .comment-date {
+    float: right;
+}
+
+.commentscontrol ul {
+    list-style: none;
+}
+
+.avator {
+    -moz-transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+
+    border: 2px #DAE3E5 solid;
+    border-radius: 50px;
+}
+
+.avator:hover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.side-bar {
+    width: 42px;
+    min-height: 42px;
+    top: 150px; right: 120px;
+}
+
+.side-bar span {
+    color: #808080;
+    max-width: 14px;
+}
+
+.new-tags {
+    margin: auto 20px;
+}
+
+.new-tags>span {
+    margin-left: 2px !important;
+    cursor: pointer;
+}
+
+.article-title:hover {
+    color: #C62627;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.article-content {
+    overflow: hidden;
+}
+
+.article-content img {
+    max-width: 100% !important;
+}
+
+.article-loading {
+    font-size: 20px;
+    text-align: center;
+}
+
+.article-comment {
+    padding-left: 0px;
+}
+
+.article-comments ul {
+    list-style: none;
+}
+
+.article-comment li {
+    float: left;
+    display: block;
+    width: 100%;
+    border-top: 1px dotted #dcdcdc;
+    padding-top: 5px;
+}
+
+.article-comment-photo {
+    float: left;
+    padding: 4px 0 0 0;
+    height: 60px;
+    margin-right: 5px;
+    min-width: 70px;
+}
+
+.article-comment-author {
+    color: #c8c8c8;
+    height: 22px;
+    overflow: hidden;
+    line-height: 20px;
+    display: block;
+    text-align: center;
+}
+
+.article-comment-content {
+    min-height: 40px;
+}
+
+.article-comment-date {
+    float: right;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.margin-bottom-sm {
+    margin-bottom: 5px !important;
+}
+
+.modal-dialog-center {
+    transform: translate(0, 50%) !important;
+    -ms-transform: translate(0, 50%) !important; /* IE 9 */
+    -webkit-transform: translate(0, 50%) !important; /* Safari and Chrome */
+}
+
+.icon-animated-vertical {
+    display: inline-block;
+    -moz-animation: vertical 2.0s 5 ease 2.0s;
+    -webkit-animation: vertical 2.0s 5 ease 2.0s;
+    -o-animation: vertical 2.0s 5 ease 2.0s;
+    -ms-animation: vertical 2.0s 5 ease 2.0s;
+    animation: vertical 2.0s 5 ease 2.0s;
+}
+
+.icon-animated-vertical-infinite {
+    display: inline-block;
+    -moz-animation: vertical 2.0s ease 2.0s infinite;
+    -webkit-animation: vertical 2.0s ease 2.0s infinite;
+    -o-animation: vertical 2.0s  ease 2.0s infinite;
+    -ms-animation: vertical 2.0s ease 2.0s infinite;
+    animation: vertical 2.0s ease 2.0s infinite;
+}
+
+@-moz-keyframes vertical {
+    0% {
+        -moz-transform: translate(0, -3px)
+    }
+    4% {
+        -moz-transform: translate(0, 3px)
+    }
+    8% {
+        -moz-transform: translate(0, -3px)
+    }
+    12% {
+        -moz-transform: translate(0, 3px)
+    }
+    16% {
+        -moz-transform: translate(0, -3px)
+    }
+    20% {
+        -moz-transform: translate(0, 3px)
+    }
+    22% {
+        -moz-transform: translate(0, 0)
+    }
+}
+
+@-webkit-keyframes vertical {
+    0% {
+        -webkit-transform: translate(0, -3px)
+    }
+    4% {
+        -webkit-transform: translate(0, 3px)
+    }
+    8% {
+        -webkit-transform: translate(0, -3px)
+    }
+    12% {
+        -webkit-transform: translate(0, 3px)
+    }
+    16% {
+        -webkit-transform: translate(0, -3px)
+    }
+    20% {
+        -webkit-transform: translate(0, 3px)
+    }
+    22% {
+        -webkit-transform: translate(0, 0)
+    }
+}
+
+@-ms-keyframes vertical {
+    0% {
+        -ms-transform: translate(0, -3px)
+    }
+    4% {
+        -ms-transform: translate(0, 3px)
+    }
+    8% {
+        -ms-transform: translate(0, -3px)
+    }
+    12% {
+        -ms-transform: translate(0, 3px)
+    }
+    16% {
+        -ms-transform: translate(0, -3px)
+    }
+    20% {
+        -ms-transform: translate(0, 3px)
+    }
+    22% {
+        -ms-transform: translate(0, 0)
+    }
+}
+
+@keyframes vertical {
+    0% {
+        transform: translate(0, -3px)
+    }
+    4% {
+        transform: translate(0, 3px)
+    }
+    8% {
+        transform: translate(0, -3px)
+    }
+    12% {
+        transform: translate(0, 3px)
+    }
+    16% {
+        transform: translate(0, -3px)
+    }
+    20% {
+        transform: translate(0, 3px)
+    }
+    22% {
+        transform: translate(0, 0)
+    }
+}
