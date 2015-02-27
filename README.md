@@ -25,7 +25,7 @@ This is a demo using Java servlet and MySQL database system.
 ### How to experience with the demo.
 ---
 
-1. Open the directory with Intellj IDEA.
+1. Open the directory with IntelliJ IDEA.
 2. Be sure installation of Tomcat and MySQL.
 3. Query create.sql which in the project's folder.
 4. Create a new user for MySQL(username: test, password: 123456).

@@ -6,6 +6,8 @@ import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Path;
 
 /**
  * Created by jakes on 14-12-7.
@@ -23,7 +25,10 @@ public class AvatarThread implements Runnable {
     public void run() {
         try {
             String emailMd5 = Util.md5Hex(email);
-            File file = new File(Util.getDeployPath() + "/img/avatar/email/" + emailMd5);
+            Path path = new File(Util.getDeployPath() + "/img/avatar/email").toPath();
+            if (Files.notExists(path))
+                Files.createDirectory(path);
+            File file = new File(path.toString()+ "/" + emailMd5);
             URL url = new URL("http://cn.gravatar.com/avatar/" + emailMd5 + "?s=40&r=x");
             BufferedImage image = ImageIO.read(url);
             ImageIO.write(image, "jpg", file);
