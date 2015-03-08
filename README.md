@@ -32,6 +32,10 @@ This is a demo using Java servlet and MySQL database system.
 5. Build project and deploy it.
 6. Browse it in your favourite browser.
 
+### Wiki
+---
+More help, see [wiki](https://github.com/jakeslee/TinyLog/wiki) page.
+
 ### Tips
 ---
 
